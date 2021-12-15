@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+        "baseUrl": ".",
+        "module": "ESNext",
+        "target": "ES5",
+        "noImplicitAny":true,
+        "moduleResolution":"Node",
+        "sourceMap": true,
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop":true,
+         "allowJs": true,
+        "jsx": "react-jsx"
+  },
+  "include": ["./src/**/*.tsx","./src/**/*.ts","./src/*.d.ts","node_modules/webpack/module.d.ts"]
+}
